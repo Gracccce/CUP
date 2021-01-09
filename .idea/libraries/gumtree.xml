@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="gumtree">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../gumtree" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../gumtree" recursive="false" />
+  </library>
+</component>

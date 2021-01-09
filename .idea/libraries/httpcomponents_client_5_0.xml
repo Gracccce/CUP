@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="httpcomponents-client-5.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../httpcomponents-client-5.0.3-bin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

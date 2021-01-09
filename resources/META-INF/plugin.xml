@@ -1,0 +1,34 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>Comment_update</name>
+  <version>1.0</version>
+  <vendor email="lml@zju.com" url="http://www.zju.com">zju</vendor>
+
+  <description><![CDATA[
+      you can use this plugin to update comment.
+    ]]></description>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <group id = "MyPlugin.update" text = "update" description="update comments">
+      <add-to-group group-id="MainMenu"  anchor="last" />
+        <action id = "Myplugin.Comment_update" class = "Myplugin.Comment_update" text="updateComment" description="update the comment of target method" />
+        <action id = "Myplugin.file_update" class = "Myplugin.file_update" text="updateFile" description="update the comment of methods" />
+    </group>
+    <!-- Add your actions here -->
+<!--    <action id = "Myplugin.Comment_update" class="Myplugin.Comment_update" text="update">-->
+<!--      <add-to-group group-id="ToolsMenu" anchor="first"/>-->
+<!--    </action>-->
+  </actions>
+
+</idea-plugin>
