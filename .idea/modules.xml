@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/comment_update.iml" filepath="$PROJECT_DIR$/comment_update.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CUP.iml" filepath="$PROJECT_DIR$/CUP.iml" />
     </modules>
   </component>
 </project>

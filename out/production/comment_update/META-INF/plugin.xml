@@ -22,7 +22,10 @@
   <actions>
     <group id = "MyPlugin.update" text = "update" description="update comments">
       <add-to-group group-id="MainMenu"  anchor="last" />
-        <action id = "Myplugin.Comment_update" class = "Myplugin.Comment_update" text="updateComment" description="update the comment of target method" />
+        <action id = "Myplugin.Comment_update" class = "Myplugin.Comment_update" text="updateComment" description="update the comment of target method" >
+          <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt c"/>
+        </action>
+
         <action id = "Myplugin.file_update" class = "Myplugin.file_update" text="updateFile" description="update the comment of methods" />
     </group>
     <!-- Add your actions here -->
@@ -32,3 +35,4 @@
   </actions>
 
 </idea-plugin>
+

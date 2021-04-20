@@ -36,7 +36,7 @@ public class Comment_update extends AnAction{
         ApplicationManager.getApplication().invokeLater(new Runnable() {
             public void run() {
                 JBPopupFactory factory = JBPopupFactory.getInstance();
-                String display = update_comment + "<br><a href=\"\">update comments</a>";
+                String display = update_comment + "<br><a href=\"\">fix</a>";
                 HyperlinkListener listener = new HyperlinkAdapter() {
                     @Override
                     protected void hyperlinkActivated(HyperlinkEvent e) {
