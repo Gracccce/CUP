@@ -1,6 +1,5 @@
-package Myplugin.Gumtreeutil;
+package CUPPlugin.Gumtreeutil;
 
-import com.github.gumtreediff.gen.SyntaxException;
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.Node;
 import com.github.javaparser.ast.NodeList;
@@ -12,7 +11,6 @@ import com.github.javaparser.ast.stmt.CatchClause;
 import com.github.javaparser.ast.stmt.ReturnStmt;
 import com.github.javaparser.ast.stmt.Statement;
 import com.github.javaparser.ast.type.Type;
-import com.github.javaparser.resolution.UnsolvedSymbolException;
 import com.github.javaparser.resolution.declarations.ResolvedParameterDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedValueDeclaration;
 import com.github.javaparser.symbolsolver.javaparsermodel.declarations.JavaParserParameterDeclaration;

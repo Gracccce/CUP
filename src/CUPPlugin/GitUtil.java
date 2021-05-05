@@ -1,6 +1,6 @@
-package Myplugin;
+package CUPPlugin;
 
-import Myplugin.Gumtreeutil.JavaMethodDiffUtil;
+import CUPPlugin.Gumtreeutil.JavaMethodDiffUtil;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.diff.DiffEntry;

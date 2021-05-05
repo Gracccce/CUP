@@ -1,4 +1,4 @@
-package Myplugin;
+package CUPPlugin;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;

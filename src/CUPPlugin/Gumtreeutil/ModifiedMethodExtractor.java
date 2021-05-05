@@ -1,4 +1,4 @@
-package Myplugin.Gumtreeutil;
+package CUPPlugin.Gumtreeutil;
 
 import com.github.gumtreediff.gen.TreeGenerator;
 import com.github.gumtreediff.matchers.Mapping;

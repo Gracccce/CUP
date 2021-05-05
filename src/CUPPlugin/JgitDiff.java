@@ -1,13 +1,9 @@
-package Myplugin;
+package CUPPlugin;
 import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
-import org.eclipse.jgit.api.errors.NoHeadException;
 import org.eclipse.jgit.diff.DiffEntry;
 import org.eclipse.jgit.diff.DiffFormatter;
 import org.eclipse.jgit.errors.IncorrectObjectTypeException;
@@ -21,8 +17,6 @@ import org.eclipse.jgit.treewalk.TreeWalk;
 import org.eclipse.jgit.treewalk.filter.NotTreeFilter;
 import org.eclipse.jgit.treewalk.filter.PathFilter;
 import org.eclipse.jgit.treewalk.filter.TreeFilter;
-import Myplugin.Gumtreeutil.JavaMethodDiffUtil;
-import  java.io.IOException.*;
 
 public class JgitDiff {
     public String get_method_name(String test_method, List<String> new_methods){
