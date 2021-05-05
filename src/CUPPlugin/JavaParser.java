@@ -1,10 +1,10 @@
-package Myplugin;
+package CUPPlugin;
 import com.github.javaparser.StaticJavaParser;
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.Node;
 import com.github.javaparser.ast.body.*;
 import java.util.*;
-import java.util.stream.Collectors;
+
 public class JavaParser {
     private List<String> method_decs = new ArrayList<>();
     private Map<String,String> method_comment = new HashMap<>();

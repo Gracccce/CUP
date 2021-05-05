@@ -1,4 +1,4 @@
-package Myplugin.Gumtreeutil;
+package CUPPlugin.Gumtreeutil;
 
 import com.github.javaparser.ast.Node;
 

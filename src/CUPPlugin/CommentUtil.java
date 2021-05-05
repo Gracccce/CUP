@@ -1,4 +1,4 @@
-package Myplugin;
+package CUPPlugin;
 
 public class CommentUtil {
     String ans="";

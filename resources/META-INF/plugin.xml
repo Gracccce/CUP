@@ -22,14 +22,14 @@
   <actions>
     <group id = "MyPlugin.update" text = "update" description="update comments">
       <add-to-group group-id="MainMenu"  anchor="last" />
-        <action id = "Myplugin.CommentUpdate" class = "Myplugin.CommentUpdate" text="updateComment" description="update the comment of target method" >
+        <action id = "CUPPlugin.CommentUpdate" class = "CUPPlugin.CommentUpdate" text="updateComment" description="update the comment of target method" >
           <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt c"/>
         </action>
 
-        <action id = "Myplugin.FileUpdate" class = "Myplugin.FileUpdate" text="updateFile" description="update the comment of methods" />
+        <action id = "CUPPlugin.FileUpdate" class = "CUPPlugin.FileUpdate" text="updateFile" description="update the comment of methods" />
     </group>
     <!-- Add your actions here -->
-<!--    <action id = "Myplugin.CommentUpdate" class="Myplugin.CommentUpdate" text="update">-->
+<!--    <action id = "CUPPlugin.CommentUpdate" class="CUPPlugin.CommentUpdate" text="update">-->
 <!--      <add-to-group group-id="ToolsMenu" anchor="first"/>-->
 <!--    </action>-->
   </actions>

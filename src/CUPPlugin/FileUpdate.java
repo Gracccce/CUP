@@ -1,4 +1,4 @@
-package Myplugin;
+package CUPPlugin;
 
 import com.intellij.openapi.command.WriteCommandAction;
 import com.intellij.openapi.editor.Document;

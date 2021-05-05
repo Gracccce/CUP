@@ -1,4 +1,4 @@
-package Myplugin;
+package CUPPlugin;
 import com.intellij.lang.ASTNode;
 
 import com.intellij.openapi.application.ApplicationManager;
